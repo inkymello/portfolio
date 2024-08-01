@@ -472,7 +472,7 @@ a {
       transition: none; } }
 
 .resume-item {
-  padding: 30px;
+  padding: 60px;
   background: #333;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
