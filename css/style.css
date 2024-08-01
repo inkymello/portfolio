@@ -474,7 +474,7 @@ a {
 .resume-item {
   margin: auto;
   width: 60%;
-  
+  align-items: center;
   padding: 60px;
   background: #333;
   -webkit-transition: .3s all ease;
