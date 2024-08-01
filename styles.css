@@ -101,10 +101,7 @@ nav ul li a:hover {
 
 .profile-image img {
     max-width: 100%;
-    border-radius: 10%;
-    border: 5px solid #6c63ff;
-    position: absolute;
-    right: 0px;
+    height: auto;
 }
 
 footer {
