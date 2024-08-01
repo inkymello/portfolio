@@ -472,6 +472,9 @@ a {
       transition: none; } }
 
 .resume-item {
+  margin: auto;
+  width: 60%;
+  
   padding: 60px;
   background: #333;
   -webkit-transition: .3s all ease;
