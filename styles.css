@@ -2,60 +2,103 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #f9f9f9;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
-header h1 {
-    margin: 0;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #6c63ff;
 }
 
-section {
-    padding: 20px 0;
+.profile {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
 }
 
-h2 {
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-info h1 {
+    font-size: 36px;
     color: #333;
 }
 
-.project {
-    margin-bottom: 20px;
+.profile-info h2 {
+    font-size: 24px;
+    color: #6c63ff;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5a54d1;
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #6c63ff;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
