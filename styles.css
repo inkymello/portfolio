@@ -105,6 +105,8 @@ nav ul li a:hover {
     border: 5px solid #6c63ff;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: absolute;
+    right: 0px;
 }
 
 footer {
