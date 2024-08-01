@@ -94,7 +94,8 @@ nav ul li a:hover {
 }
 
 .profile-image {
-    max-width: 300px;
+    max-width: 100px;
+    max-height: 100px;
     margin: 0 auto;
     text-align: center;
 }
